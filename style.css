@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: lightsalmon;
+    text-align: center;
+    ;
+    /* padding: 10px 0; */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 15px;
+    font-size: 15px;
+    border: 2px solid brown;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    color: brown;
+    transition: 0.5s;
+
+}
+
+nav a:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: brown;
+}
+
+header {
+    height: 300px;
+    background-color: cadetblue;
+}
